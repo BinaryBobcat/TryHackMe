@@ -1,4 +1,4 @@
-# Steel Mountain
+# TryHackMe - Steel Mountain
 
 > Sep 20, 2021
 
