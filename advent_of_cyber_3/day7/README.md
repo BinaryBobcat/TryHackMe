@@ -1,6 +1,6 @@
 # Advent of Cyber 3 (2021)
 
-> Dec. 1, 2021
+> Dec. 7, 2021
 
 ## [Day 7] Web Exploitation Migration Without Security
 

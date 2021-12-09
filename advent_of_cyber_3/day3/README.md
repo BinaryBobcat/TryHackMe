@@ -1,6 +1,6 @@
 # Advent of Cyber 3 (2021)
 
-> Dec. 1, 2021
+> Dec. 3, 2021
 
 ## [Day 3] Web Exploitation Christmas Blackout 
 

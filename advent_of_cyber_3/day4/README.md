@@ -1,6 +1,6 @@
 # Advent of Cyber 3 (2021)
 
-> Dec. 1, 2021
+> Dec. 4, 2021
 
 ## [Day 4] Web Exploitation Santa's Running Behind
 
@@ -10,7 +10,7 @@ In burpsuite we will turn intercept on, navigate to the target IP, put in our cr
 
 `Answer: cookie`
 
-![](screenshots/AOC3_day4-1.png)
+![](../screenshots/AOC3_day4-1.png)
 
 2. What is the flag in Santa's itinerary?
 
@@ -18,4 +18,4 @@ Applying our newly found password `cookie,` we can login.
 
 `Answer: THM{SANTA_DELIVERS}`
 
-![](screenshots/AOC3_day4-2.png)
+![](../screenshots/AOC3_day4-2.png)

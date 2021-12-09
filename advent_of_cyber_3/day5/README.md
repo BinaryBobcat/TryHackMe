@@ -1,6 +1,6 @@
 # Advent of Cyber 3 (2021)
 
-> Dec. 1, 2021
+> Dec. 5, 2021
 
 ## [Day 5] Web Exploitation Pesky Elf Forum 
 
