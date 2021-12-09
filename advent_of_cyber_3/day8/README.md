@@ -40,7 +40,7 @@ Located inside bag of toys in shellbags.
 
 7. What is the name of the user that owns the SantaRat repository?
 
-![](../screenshots/AOC-day8-7.png)
+![](../screenshots/AOC3_day8-7.png)
 
 `Answer: Grinchiest`
 

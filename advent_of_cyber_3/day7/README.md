@@ -28,7 +28,7 @@ We can now navigate into the flagdb and view its contents.
 
 This returns a collection named `flagColl`. We then can view the contents inside.
 
-![](../screenshots/AOC_day7-1-1.png)
+![](../screenshots/AOC3_day7-1-1.png)
 
 `Answer: THM{8814a5e6662a9763f7df23ee59d944f9}`
 
