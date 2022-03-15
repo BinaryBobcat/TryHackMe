@@ -1,0 +1,22 @@
+# Nmap 7.92 scan initiated Mon Mar 14 13:04:04 2022 as: nmap -sC -sV -oN nmap/inital 10.10.226.198
+Nmap scan report for 10.10.226.198
+Host is up (0.096s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 11:8e:34:34:df:42:17:7b:ab:dc:44:9b:03:17:36:bb (RSA)
+|   256 a5:d7:ed:38:db:04:e3:ef:8c:8a:14:25:06:94:f5:a9 (ECDSA)
+|_  256 f4:f0:ea:5d:64:b2:3e:cf:16:7d:ef:a8:67:a3:43:0c (ED25519)
+5000/tcp open  http    Werkzeug httpd 0.16.0 (Python 3.6.9)
+|_http-title: Live demonstrations
+|_http-server-header: Werkzeug/0.16.0 Python/3.6.9
+7777/tcp open  http    Werkzeug httpd 0.16.0 (Python 3.6.9)
+|_http-title: No Auth
+|_http-server-header: Werkzeug/0.16.0 Python/3.6.9
+8888/tcp open  http    Werkzeug httpd 0.16.0 (Python 3.6.9)
+|_http-title: Auth hacks
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 14 13:04:33 2022 -- 1 IP address (1 host up) scanned in 28.28 seconds
